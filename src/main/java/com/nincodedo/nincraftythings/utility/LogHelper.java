@@ -1,10 +1,10 @@
 package com.nincodedo.nincraftythings.utility;
 
+import net.minecraftforge.fml.common.FMLLog;
+
 import org.apache.logging.log4j.Level;
 
 import com.nincodedo.nincraftythings.reference.Reference;
-
-import cpw.mods.fml.common.FMLLog;
 
 public class LogHelper {
 

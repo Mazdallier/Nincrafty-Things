@@ -9,11 +9,10 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import com.nincodedo.nincraftythings.init.ModItems;
 import com.nincodedo.nincraftythings.reference.Settings;
-
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
 public class ArmorSetBonusHandler {
 

@@ -1,5 +1,7 @@
 package com.nincodedo.nincraftythings.init;
 
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 import com.nincodedo.nincraftythings.armor.ItemArmorNincodium;
 import com.nincodedo.nincraftythings.armor.ItemArmorNincrafty;
 import com.nincodedo.nincraftythings.item.ItemNincodiumIngot;
@@ -7,8 +9,6 @@ import com.nincodedo.nincraftythings.item.ItemNincrafty;
 import com.nincodedo.nincraftythings.reference.Reference;
 import com.nincodedo.nincraftythings.tool.ItemNincodiumPickaxe;
 import com.nincodedo.nincraftythings.tool.ItemPickaxeNincrafty;
-
-import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems {
