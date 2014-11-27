@@ -38,8 +38,8 @@ public class ArmorSetBonusHandler {
 					closestPlayer.setHealth(closestPlayer.getHealth()
 							+ (healed));
 					EntityPlayer close = Minecraft.getMinecraft().theWorld
-							.getPlayerEntityByName(closestPlayer
-									.getDisplayName());
+							.getPlayerEntityByUUID(closestPlayer
+									.getUniqueID());
 					close.playSound("random.levelup", 1, 2);
 				}
 			}
